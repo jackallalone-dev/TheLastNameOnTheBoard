@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111827" />
+  <title>The Last Name On The Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">L</div>
+        <div>
+          <p class="eyebrow">Daily elimination trivia</p>
+          <h1>The Last Name <span>On The Board</span></h1>
+        </div>
+      </div>
+      <button class="icon-button" id="howToBtn" type="button" aria-label="How to play">?</button>
+    </header>
+
+    <section class="hud" aria-label="Game status">
+      <div class="hud-card">
+        <span class="hud-label">Score</span>
+        <strong id="score">0</strong>
+      </div>
+      <div class="hud-card">
+        <span class="hud-label">Streak</span>
+        <strong id="streak">0</strong>
+      </div>
+      <div class="hud-card">
+        <span class="hud-label">Lives</span>
+        <strong id="lives" class="lives" aria-label="3 lives">● ● ●</strong>
+      </div>
+      <div class="hud-card">
+        <span class="hud-label">Best</span>
+        <strong id="bestScore">0</strong>
+      </div>
+    </section>
+
+    <section class="game-card">
+      <div class="round-meta">
+        <div>
+          <p class="eyebrow" id="roundLabel">Round 1 of 4</p>
+          <h2 id="categoryTitle">Loading…</h2>
+        </div>
+        <div class="remaining-pill"><span id="remainingCount">8</span> names left</div>
+      </div>
+
+      <div class="clue-panel" id="cluePanel" aria-live="polite">
+        <p class="clue-kicker">Who am I?</p>
+        <p class="clue-text" id="clueText">Press Start to begin.</p>
+        <p class="clue-hint" id="clueHint">Choose the surname that matches the clue.</p>
+      </div>
+
+      <div class="board" id="board" role="group" aria-label="Surname board"></div>
+
+      <div class="action-row">
+        <button class="primary-button" id="startBtn" type="button">Start game</button>
+        <button class="secondary-button hidden" id="nextBtn" type="button">Next clue</button>
+      </div>
+    </section>
+
+    <p class="footer-note">Clear every clue. Leave one name standing. Own the board.</p>
+  </main>
+
+  <dialog id="howToDialog" class="modal">
+    <form method="dialog" class="modal-card">
+      <button class="modal-close" value="close" aria-label="Close">×</button>
+      <p class="eyebrow">How to play</p>
+      <h2>Eliminate the right names.</h2>
+      <div class="rules">
+        <p><strong>1.</strong> Read the clue.</p>
+        <p><strong>2.</strong> Tap the matching surname on the board.</p>
+        <p><strong>3.</strong> Correct answers disappear. Wrong answers cost a life.</p>
+        <p><strong>4.</strong> The final clue should leave exactly one name on the board.</p>
+      </div>
+      <button class="primary-button" value="close">Got it</button>
+    </form>
+  </dialog>
+
+  <dialog id="resultDialog" class="modal">
+    <div class="modal-card result-card">
+      <p class="eyebrow" id="resultEyebrow">Game over</p>
+      <div class="result-icon" id="resultIcon">🏆</div>
+      <h2 id="resultTitle">Board cleared.</h2>
+      <p id="resultCopy">You left the right name standing.</p>
+      <div class="result-score">
+        <span>Final score</span>
+        <strong id="finalScore">0</strong>
+      </div>
+      <button class="primary-button" id="playAgainBtn" type="button">Play again</button>
+    </div>
+  </dialog>
+
+  <script src="game.js"></script>
+</body>
+</html>
