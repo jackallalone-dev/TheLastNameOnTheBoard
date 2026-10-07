@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "pathConvention": "Paths are relative to the app deployment base, not the site root. For Vite, prefix with import.meta.env.BASE_URL. This is a custom asset catalog, not a Phaser loader pack.",
+  "assets": [
+    {
+      "key": "world.tiny-town.tiles",
+      "path": "assets/world/tiny-town/tiles.png",
+      "type": "spritesheet",
+      "pack": "tiny-town",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 12,
+      "rows": 11,
+      "imageWidth": 192,
+      "imageHeight": 176,
+      "frameCount": 132
+    },
+    {
+      "key": "world.tiny-farm.tiles",
+      "path": "assets/world/tiny-farm/tiles.png",
+      "type": "spritesheet",
+      "pack": "tiny-farm",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 12,
+      "rows": 11,
+      "imageWidth": 192,
+      "imageHeight": 176,
+      "frameCount": 132
+    },
+    {
+      "key": "world.tiny-dungeon.tiles",
+      "path": "assets/world/tiny-dungeon/tiles.png",
+      "type": "spritesheet",
+      "pack": "tiny-dungeon",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 12,
+      "rows": 11,
+      "imageWidth": 192,
+      "imageHeight": 176,
+      "frameCount": 132
+    },
+    {
+      "key": "world.tiny-ski.tiles",
+      "path": "assets/world/tiny-ski/tiles.png",
+      "type": "spritesheet",
+      "pack": "tiny-ski",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 12,
+      "rows": 11,
+      "imageWidth": 192,
+      "imageHeight": 176,
+      "frameCount": 132
+    },
+    {
+      "key": "world.tiny-battle.tiles",
+      "path": "assets/world/tiny-battle/tiles.png",
+      "type": "spritesheet",
+      "pack": "tiny-battle",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 18,
+      "rows": 11,
+      "imageWidth": 288,
+      "imageHeight": 176,
+      "frameCount": 198
+    },
+    {
+      "key": "characters.desert-shooter.tiles",
+      "path": "assets/characters/desert-shooter/tiles.png",
+      "type": "spritesheet",
+      "pack": "desert-shooter",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 4,
+      "rows": 4,
+      "imageWidth": 96,
+      "imageHeight": 96,
+      "frameCount": 16
+    },
+    {
+      "key": "enemies.desert-shooter.tiles",
+      "path": "assets/enemies/desert-shooter/tiles.png",
+      "type": "spritesheet",
+      "pack": "desert-shooter",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 4,
+      "rows": 4,
+      "imageWidth": 96,
+      "imageHeight": 96,
+      "frameCount": 16
+    },
+    {
+      "key": "weapons.desert-shooter.tiles",
+      "path": "assets/weapons/desert-shooter/tiles.png",
+      "type": "spritesheet",
+      "pack": "desert-shooter",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 10,
+      "rows": 4,
+      "imageWidth": 240,
+      "imageHeight": 96,
+      "frameCount": 40
+    },
+    {
+      "key": "world.desert-shooter.tiles",
+      "path": "assets/world/desert-shooter/tiles.png",
+      "type": "spritesheet",
+      "pack": "desert-shooter",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 18,
+      "rows": 13,
+      "imageWidth": 288,
+      "imageHeight": 208,
+      "frameCount": 234
+    },
+    {
+      "key": "ui.desert-shooter.tiles",
+      "path": "assets/ui/desert-shooter/tiles.png",
+      "type": "spritesheet",
+      "pack": "desert-shooter",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 18,
+      "rows": 11,
+      "imageWidth": 288,
+      "imageHeight": 176,
+      "frameCount": 198
+    },
+    {
+      "key": "audio.desert-shooter.coin-a",
+      "path": "assets/audio/desert-shooter/coin-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.coin-b",
+      "path": "assets/audio/desert-shooter/coin-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.coin-c",
+      "path": "assets/audio/desert-shooter/coin-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.coin-d",
+      "path": "assets/audio/desert-shooter/coin-d.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.error-a",
+      "path": "assets/audio/desert-shooter/error-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.error-b",
+      "path": "assets/audio/desert-shooter/error-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.error-c",
+      "path": "assets/audio/desert-shooter/error-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.explosion-a",
+      "path": "assets/audio/desert-shooter/explosion-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.explosion-b",
+      "path": "assets/audio/desert-shooter/explosion-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.explosion-c",
+      "path": "assets/audio/desert-shooter/explosion-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.fall-a",
+      "path": "assets/audio/desert-shooter/fall-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.fall-b",
+      "path": "assets/audio/desert-shooter/fall-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.hurt-a",
+      "path": "assets/audio/desert-shooter/hurt-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.hurt-b",
+      "path": "assets/audio/desert-shooter/hurt-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.hurt-c",
+      "path": "assets/audio/desert-shooter/hurt-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.hurt-d",
+      "path": "assets/audio/desert-shooter/hurt-d.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.hurt-e",
+      "path": "assets/audio/desert-shooter/hurt-e.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.jump-a",
+      "path": "assets/audio/desert-shooter/jump-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.jump-b",
+      "path": "assets/audio/desert-shooter/jump-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.jump-c",
+      "path": "assets/audio/desert-shooter/jump-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.jump-d",
+      "path": "assets/audio/desert-shooter/jump-d.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.jump-e",
+      "path": "assets/audio/desert-shooter/jump-e.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.jump-f",
+      "path": "assets/audio/desert-shooter/jump-f.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.lose-a",
+      "path": "assets/audio/desert-shooter/lose-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.lose-b",
+      "path": "assets/audio/desert-shooter/lose-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.lose-c",
+      "path": "assets/audio/desert-shooter/lose-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.lose-d",
+      "path": "assets/audio/desert-shooter/lose-d.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.move-a",
+      "path": "assets/audio/desert-shooter/move-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.move-b",
+      "path": "assets/audio/desert-shooter/move-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.move-c",
+      "path": "assets/audio/desert-shooter/move-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.move-d",
+      "path": "assets/audio/desert-shooter/move-d.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.select-a",
+      "path": "assets/audio/desert-shooter/select-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-a",
+      "path": "assets/audio/desert-shooter/shoot-a.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-b",
+      "path": "assets/audio/desert-shooter/shoot-b.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-c",
+      "path": "assets/audio/desert-shooter/shoot-c.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-d",
+      "path": "assets/audio/desert-shooter/shoot-d.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-e",
+      "path": "assets/audio/desert-shooter/shoot-e.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-f",
+      "path": "assets/audio/desert-shooter/shoot-f.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-g",
+      "path": "assets/audio/desert-shooter/shoot-g.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "audio.desert-shooter.shoot-h",
+      "path": "assets/audio/desert-shooter/shoot-h.ogg",
+      "type": "audio",
+      "pack": "desert-shooter"
+    },
+    {
+      "key": "ui.input-prompts.black",
+      "path": "assets/ui/input-prompts/black.png",
+      "type": "spritesheet",
+      "pack": "input-prompts-pixel-1-bit",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 34,
+      "rows": 24,
+      "imageWidth": 544,
+      "imageHeight": 384,
+      "frameCount": 816
+    },
+    {
+      "key": "ui.input-prompts.white",
+      "path": "assets/ui/input-prompts/white.png",
+      "type": "spritesheet",
+      "pack": "input-prompts-pixel-1-bit",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "margin": 0,
+      "spacing": 0,
+      "columns": 34,
+      "rows": 24,
+      "imageWidth": 544,
+      "imageHeight": 384,
+      "frameCount": 816
+    },
+    {
+      "key": "ui.adventure.spritesheet-default",
+      "path": "assets/ui/adventure/spritesheet-default.png",
+      "type": "atlas-image",
+      "pack": "ui-pack-adventure",
+      "atlasFormat": "Starling XML",
+      "atlasPath": "assets/ui/adventure/spritesheet-default.xml",
+      "imageWidth": 592,
+      "imageHeight": 600
+    },
+    {
+      "key": "ui.adventure.spritesheet-double",
+      "path": "assets/ui/adventure/spritesheet-double.png",
+      "type": "atlas-image",
+      "pack": "ui-pack-adventure",
+      "atlasFormat": "Starling XML",
+      "atlasPath": "assets/ui/adventure/spritesheet-double.xml",
+      "imageWidth": 1184,
+      "imageHeight": 1200
+    }
+  ]
+}
